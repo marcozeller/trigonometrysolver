@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <trigonometrysolver.hh>
 
 class triangle
 {
