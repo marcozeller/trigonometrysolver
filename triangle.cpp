@@ -1,8 +1,9 @@
 #include <iostream>
 #include <cmath>
 #include "triangle.hpp"
+#include "triangle_private.hpp"
 
-class triangle
+class Triangle
 {
   private:
     double 	a,
@@ -14,29 +15,56 @@ class triangle
             gamma;
     
   public:
-    triangle():
+    triangle(){
+    	this.a = 0;
+    	this.b = 0;
+    	this.c = 0;
+    	
+    	this.alpha = 0;
+    	this.beta = 0;
+    	this.gamma = 0;
+	}
+    	
     double get_a(){
-      return this.a
+    	return this.a
     };
     double get_b(){
-      return this.b
+    	return this.b
     };
     double get_c(){
-      return this.c
+    	return this.c
     };
             
-    double get_gamma();
-    double get_beta();
-    double get_gamma();
+    double get_gamma(){
+    	return this.c
+    };
+    double get_beta(){
+    	return this.c
+    };
+    double get_gamma(){
+    	return this.c
+    };
     
-    void set_a(a) this.a = a;
-    void set_b(b) this.b = b;
-    void set_c(c) this.c = c;
-    void set_alpha(alpha) this.alpha = alpha;
-    void set_beta(beta) this.beta = beta;
-    void set_gamma(gamma) this.gamma = gamma;
+    void set_a(double a){
+    	this.a = a;
+	}
+    void set_b(double b){
+    	this.b = b;
+	} 
+    void set_c(double c){
+    	this.c = c;
+	} 
+    void set_alpha(double alpha){
+    	this.alpha = alpha;
+	} 
+    void set_beta(double beta){
+    	this.beta = beta;
+	} 
+    void set_gamma(double gamma){
+    	this.gamma = gamma;
+	}
     
-    void solve_rest
+    void solve_rest()
 
 }
 
