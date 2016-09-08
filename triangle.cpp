@@ -1,15 +1,15 @@
 #include <iostream>
 #include <cmath>
-#include <trigonometrysolver.hh>
+#include "triangle.hpp"
 
 class triangle
 {
   private:
-    double a,
-            b,
+    double 	a,
+        	b,
             c;
     
-    double alpha,
+    double 	alpha,
             beta,
             gamma;
     
