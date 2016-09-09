@@ -49,7 +49,7 @@ void Triangle::solve_rest(){
       a = std::sqrt(b*b + c*c - 2*b*c*std::cos(alpha));
     }
     if(beta !=0){
-      a = std::cos(beta) + std::sqrt(std::cos(beta)*std::cos(beta)-c*c+b*b);
+      gamma = std::asin(c/b*std::sin(beta));
     }
       
     if(gamma !=0){

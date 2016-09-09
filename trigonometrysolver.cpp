@@ -8,9 +8,9 @@ Triangle Mauro;
 //Mauro.set_a(3.);
 Mauro.set_b(4.);
 Mauro.set_c(5.);
-Mauro.set_alpha(0.643501);
-//Mauro.set_alpha(0.927295);
-//Mauro.set_alpha(1.5708);
+//Mauro.set_alpha(0.643501);
+Mauro.set_beta(0.927295);
+//Mauro.set_gamma(1.5708);
 
 
 Mauro.solve_rest();
